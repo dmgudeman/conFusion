@@ -8,4 +8,5 @@ Screen shot of week 1 assignment. Modified the webpage to include breadcrumbs,
 utilized row-content and columns. Added home links to all the home buttons and
 the Ristorante Con Fusion text in the navbar.
 
-![Week 1 screenshot](/Images/Screen Shot Week 1.png)
+[//]: # (Comment) ![Week 1 screenshot](/Images/Screen Shot Week 1.png)
+\centerline{\includegraphics[height=2in]{myimage.png}}
