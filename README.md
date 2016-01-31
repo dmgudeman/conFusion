@@ -9,7 +9,6 @@ utilized row-content and columns. Added home links to all the home buttons and
 the Ristorante Con Fusion text in the navbar.
 
 [//]: # (Comment) ![Week 1 screenshot](/Images/Screen Shot Week 1.png)
-\centerline{\includegraphics[height=4in]{/Images/Screen Shot Week 1.png}}
 <figure><img src="/Images/Screen Shot Week 1.png" alt="image"
 width="400" height="600"></figure>
 
