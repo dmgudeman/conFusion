@@ -314,38 +314,55 @@
                                     <label class="radio-inline"><input type="radio" name="optradio">6</label>      
                                 </div>
                             </div>
-                    <!--the "has-feedback" indicator allows the glyphicon to be on the right side.-->
-                    <!-- This is coupled with "form-control-feedback" in the i class-->
-                    <div class="form-group has-feedback">
-                        <label for="dateandtime" class="col-sm-2 control-label">Date and Time</label>
-                        <div class="col-sm-4">    
-                            <i class="glyphicon glyphicon-calendar form-control-feedback"></i>
-                            <input type="text" class="form-control" id="date" name="date" placeholder="Date">       
-                        </div>
-                        <div class="col-sm-1">       
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="inner-addon right-addon">
-                                <i class="glyphicon glyphicon-time form-control-feedback"></i>
-                                <input type="text" class="form-control" id="time" name="date" placeholder="Time"> 
+                            
+                            <div class="form-group">
+                                <label for="numberofguests" class="col-sm-2 control-label">Section</label>
+                                <div class="col-sm-10">
+                            
+                            <div class="btn-group" data-toggle="buttons">
+  <label class="btn btn-danger active">
+    <input type="checkbox" autocomplete="off" checked> Smoking
+  </label>
+  <label class="btn btn-success">
+    <input type="checkbox" autocomplete="off"> Non Smoking
+  </label>
+  
+</div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="spacing" class="col-sm-2 control-label"></label>
-                        <div class="col-sm-4">
-                        <button type="submit" class="btn btn-primary">Reserve</button>
-                        </div>   
-                    </div>
-                    <div class="alert alert-warning alert-dismissible" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <strong>Warning:</strong> Please <a href="tel:+85212345678" class="alert-link">Call</a>
-                        us to reserve for more than six guests.
+                            <!--the "has-feedback" indicator allows the glyphicon to be on the right side.-->
+                            <!-- This is coupled with "form-control-feedback" in the i class-->
+                            <div class="form-group has-feedback">
+                                <label for="dateandtime" class="col-sm-2 control-label">Date and Time</label>
+                                <div class="col-sm-4">    
+                                    <i class="glyphicon glyphicon-calendar form-control-feedback"></i>
+                                    <input type="text" class="form-control" id="date" name="date" placeholder="Date">       
+                                </div>
+                                <div class="col-sm-1">       
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="inner-addon right-addon">
+                                        <i class="glyphicon glyphicon-time form-control-feedback"></i>
+                                        <input type="text" class="form-control" id="time" name="time" placeholder="Time"> 
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="form-group">
+                                <label for="spacing" class="col-sm-2 control-label"></label>
+                                <div class="col-sm-4">
+                                    <button type="submit" class="btn btn-primary">Reserve</button>
+                                </div>   
+                            </div>
+                            <div class="alert alert-warning alert-dismissible" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                                    <strong>Warning:</strong> Please <a href="tel:+85212345678" class="alert-link">Call</a>
+                                        us to reserve for more than six guests.
                         
-                                </div>          
-                            </form>
+                            </div>          
+                        </form>
                         </div>
                     </div><!--end of Modal Content-->       
                 </div>
