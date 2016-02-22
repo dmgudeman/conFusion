@@ -1,3 +1,10 @@
+<!--Coursera: Front-End Web UI Frameworks and Tools-->
+<!--Assignment 4 - Using Javascript instead of data-* attributes to control
+        the Log In and Reserve Table functionality -->
+<!--David M. Gudeman-->
+<!--February 21, 2016-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,14 +21,6 @@
     <link href="css/mystyles.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap-social.css" rel="stylesheet">
-  
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="200">
@@ -61,12 +60,14 @@
                         
                      </li>
                     <li><a href="contactus.html"><i class="fa fa-envelope-o"></i>Contact</a></li>                   
-                </ul> 
-                <ul class="nav navbar-nav navbar-right">
-                            <li><a data-toggle="modal" data-target="#loginModal">
-                                   <span class="glyphicon glyphicon-log-in"></span>Login</a>
-                            </li>
-                        </ul>
+                </ul>
+                <!--Assignment 4 activate login without using bootstrap data-* attributes, use Javascript instead-->
+                 <ul class="nav navbar-nav navbar-right">      
+                     </li>
+                        <button type="button" class="btn btn-myLogIn btn-lg" id="myLogInBtn">
+                            <span class="glyphicon glyphicon-log-in"></span> Log in
+                        </button>
+                </ul>                
             </div>
         </div>
     </nav>
@@ -95,7 +96,6 @@
     <header class ="jumbotron">
 
         <!-- Main component for a primary marketing message or call to action -->
-       
         <div  class="container">
             <div class="row row-header">
                 <div class="col-xs-12 col-sm-8"> 
@@ -109,8 +109,8 @@
                 </div>
                 <div class="col-xs-12 col-sm-2" >                    
                     <p style="padding:40px;"></p>
-                   <!--  <a href="#reservationModal" role="button" class="btn btn-warning btn-block" id="modal">Reserve a Table</a> -->
-                    <button type="button" class="btn btn-warning btn-block" id="myBtn">Reserve a Table</button>
+                   <!--Assignment 4 activate Reserve a Table" without using bootstrap data-* attributes, use Javascript instead-->
+                    <button type="button" class="btn btn-warning btn-block" id="myReserveBtn">Reserve a Table</button>
                 </div>
             </div>
             
@@ -119,18 +119,18 @@
     
     
     <div class="container">
-            <!--carousel-->
-                
+            
+    <!--Carousel-->            
     <div class="row row-content">
         <div class="col-xs-12"> 
             <div id="mycarousel" class="carousel slide" data-ride="carousel">
-                <!--Indicators-->
+                <!--Carousel indicators-->
                 <ol class="carousel-indicators">
                     <li data-target="mycarousel" data-slide-to="0" class="active"></li>
                     <li data-target="mycarousel" data-slide-to="1"></li>
                     <li data-target="mycarousel" data-slide-to="2"></li>
                 </ol>
-                <!--wrapper for slides-->
+                <!--Carousel - wrapper for slides-->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <img class="img-repsonsive"
@@ -160,32 +160,29 @@
                             <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
                         </div>
                     </div>
-                </div>
-                <!--Controls-->
-        <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+                </div> <!-- endo of Carousel slide wrapper-->
+                <!--Carousel controls-->
+                <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
                 </a>
                 <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                      <span class="sr-only">Next</span>
-        </a>
+                </a>
+                <!--Carousel - red control buttons lower right corner-->
                 <div class="btn-group" id="carouselButtons">
                     <button class="btn btn-danger btn-xs" id="carousel-pause">
                         <span class="glyphicon glyphicon-pause" aria-hidden=true></span>
-                        </button>
+                    </button>
                     <button class="btn btn-danger btn-xs" id="carousel-play">
                         <span class="glyphicon glyphicon-play" aria-hidden=true></span>
-                        </button>
-                    
-                </div>
-                
-            </div>
+                    </button>       
+                </div>  
+            </div> 
+        </div>       
+    </div><!--end of carousel-->
         
-        </div>
-       
-    </div>
-    <!--end of carousel-->
         <!--row-content 1-->
         <div class = "row row-content">
             <div class="col-xs-12 col-sm-3 col-sm-push-9">
@@ -247,15 +244,10 @@
                      <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
                 </div>   
             </div>
-                </div>
-            
-          
-    </div>
-               
-   
+        </div><!--end of row-content 3-->    
     </div><!--end of container-->
         
-            <!--Modal -->
+            <!--Reserve Table Modal -->
             <div id="reservationModal" class="modal fade " role="dialog">
                 <div class="modal-dialog">
                 <!--Reservation Modal Content-->
@@ -321,13 +313,12 @@
                                 </button>
                                     <strong>Warning:</strong> Please <a href="tel:+85212345678" class="alert-link">Call</a>
                                         us to reserve for more than six guests.
-                        
                             </div>          
                         </form>
                         </div>
                     </div><!--end of Modal Content-->       
                 </div>
-            </div><!--Reservation Moddal-->        
+            </div><!--end of Reserve Table Modal -->        
 
     <footer class="row-footer">
         <div class="container">
@@ -392,8 +383,15 @@
     </script>
     <script>
 $(document).ready(function(){
-    $("#myBtn").click(function(){
+    $("#myReserveBtn").click(function(){
         $("#reservationModal").modal();
+    });
+});
+</script>
+    <script>
+$(document).ready(function(){
+    $("#myLogInBtn").click(function(){
+        $("#loginModal").modal();
     });
 });
 </script>
