@@ -377,21 +377,19 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function() {
-            $("#mycarousel").carousel( {interval: 2000} );
+        $(document).ready(function(){
+        
+            $("#mycarousel").carousel( { interval: 2000 } );
              
             $("#carousel-pause").click(function(){
-                $("mycarousel").carousel('pause');
+
+                $("#mycarousel").carousel('pause');
+              
             });
             $("#carousel-play").click(function(){
-                $("mycarousel").carousel('cycle');
+                $("#mycarousel").carousel('cycle');
             });   
-             
-             
-             
-        });
-    
-    
+        });    
     </script>
     
     
