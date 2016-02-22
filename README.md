@@ -12,7 +12,7 @@ the Ristorante Con Fusion text in the navbar.
 <figure><img src="/Images/Screen Shot Week 1.png" alt="image"
 width="400" height="600"></figure>
 
-#Assignment 4 - Using Javascript instead of data-* attributes
+##Assignment 4 - Using Javascript instead of data-* attributes
 According to W3schools.com, data-* attributes are attributes of HTML that:
 
 The data-* attributes is used to store custom data private to the page or application.
@@ -24,6 +24,12 @@ providing functionality to buttons and links among other things.  In Assignment
 3 we developed Modal popups for both the Reserve Table function as well as the
 Log In function for the the index web Page for the conFusion Restaurant. In This
 assignment I provide the same functionality with the use of Javascript alone:
-[//]: # (Comment) ![The Index page](/img/Assignment04/Index.png)
-<figure><img src="/img/Assignment04/Index.png" alt="index"
+[//]: ### (Comment) ![The Index page](/img/Assignment04/index.png)
+<figure><img src="/img/Assignment04/index.png" alt="index"
+width="400" height="200"></figure>
+[//]: ### (Comment) ![Reserve Table Modal](/img/Assignment04/reserve.png)
+<figure><img src="/img/Assignment04/reserve.png" alt="reserve"
+width="400" height="200"></figure>
+[//]: ### (Comment) ![Log In Modal](/img/Assignment04/logIn.png)
+<figure><img src="/img/Assignment04/logIn.png" alt="logIn"
 width="400" height="200"></figure>
