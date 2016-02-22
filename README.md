@@ -4,16 +4,18 @@ stack web development course.
 conFusion is the name of a hypothetical restaurant and the project is to make a
 responsive web page.
 
-Screen shot of week 1 assignment. Modified the webpage to include breadcrumbs,
-utilized row-content and columns. Added home links to all the home buttons and
-the Ristorante Con Fusion text in the navbar.
+##Assignment 1 - the index page for a restaurant
+I modified the webpage to include breadcrumbs and
+utilized row-content and columns. Also added home links to all the home buttons and
+the Ristorante Con Fusion text in a navbar.
 
+###Screen shot of week 1 assignment.
 [//]: # (Comment) ![Week 1 screenshot](/Images/Screen Shot Week 1.png)
 <figure><img src="/Images/Screen Shot Week 1.png" alt="image"
 width="400" height="600"></figure>
 
 ##Assignment 4 - Using Javascript instead of data-* attributes
-According to W3schools.com, data-* attributes are attributes of HTML that:
+According to W3schools.com, data-* attributes are attributes of HTML:
 
 The data-* attributes is used to store custom data private to the page or application.
 
