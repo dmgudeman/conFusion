@@ -27,7 +27,7 @@ assignment I provide the same functionality with the use of Javascript alone:
 
 [//]: # (Comment) ![The Index page](/Images/index.png)
 <figure><img src="/Images/index.png" alt="index"
-width="400" height="200"></figure>
+width="400" height="600"></figure>
 [//]: # (Comment) ![Reserve Table Modal](Images/Assignment04/reserve.png)
 <figure><img src="Images/Assignment04/reserve.png" alt="reserve"
 width="400" height="200"></figure>
