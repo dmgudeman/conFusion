@@ -23,14 +23,17 @@ Bootstrap has used these attributes and developed advanced capability in
 providing functionality to buttons and links among other things.  In Assignment
 3 we developed Modal popups for both the Reserve Table function as well as the
 Log In function for the the index web Page for the conFusion Restaurant. In This
-assignment I provide the same functionality with the use of Javascript alone:
+assignment I provide the same functionality with the use of Javascript alone.
+###The index page
 
 [//]: # (Comment) ![The Index page](/Images/Assignment04/index.png)
 <figure><img src="/Images/Assignment04/index.png" alt="index"
 width="400" height="200"></figure>
+###The Reserve Table Modal functionality
 [//]: # (Comment) ![Reserve Table Modal](Images/Assignment04/reserve.png)
 <figure><img src="Images/Assignment04/reserve.png" alt="reserve"
 width="400" height="200"></figure>
+###The Log In Modal functionality
 [//]: # (Comment) ![Log In Modal](Images/Assignment04/logIn.png)
 <figure><img src="Images/Assignment04/logIn.png" alt="logIn"
 width="400" height="200"></figure>
