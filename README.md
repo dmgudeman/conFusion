@@ -25,8 +25,8 @@ providing functionality to buttons and links among other things.  In Assignment
 Log In function for the the index web Page for the conFusion Restaurant. In This
 assignment I provide the same functionality with the use of Javascript alone:
 
-[//]: # (Comment) ![The Index page](/Images/index.png)
-<figure><img src="/Images/index.png" alt="index"
+[//]: # (Comment) ![The Index page](/Images/Assignment04/index.png)
+<figure><img src="/Images/Assignment04/index.png" alt="index"
 width="400" height="200"></figure>
 [//]: # (Comment) ![Reserve Table Modal](Images/Assignment04/reserve.png)
 <figure><img src="Images/Assignment04/reserve.png" alt="reserve"
